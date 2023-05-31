@@ -20,7 +20,7 @@ public class Flags {
     */
   public static void flagsChecker(String[] args) {
     for (int i = 0; i < args.length; i++) {
-      if (!args[i-1 < 0 ? i : i-1].equals("-o") && args[i].contains(".")) { 
+      if (!args[i-1 < 0 ? i : i-1].equals("-o")) { 
         filePaths.mete(args[i]);
       }
       if (args[i].equals("-r")) reverse = true;
