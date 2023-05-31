@@ -25,7 +25,7 @@ public class Flags {
       }
       if (args[i].equals("-r")) reverse = true;
       if (args[i].equals("-o")) 
-        if (i+1 < args.length && args[i+1].contains(".")) outPathFile = args[i+1];
+        if (i+1 < args.length) outPathFile = args[i+1];
     }
   }
   

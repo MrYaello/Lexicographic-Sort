@@ -32,7 +32,6 @@ public class Proyecto1 extends Main {
     if (getOutPathFile() != null) {  
       Write write = new Write(getOutPathFile());
       write.writeFile(formatedString(lista));
-      System.out.println("Guardado en " + getOutPathFile());
     } else printString(lista);
   }  
 }
